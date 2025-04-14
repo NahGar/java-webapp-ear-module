@@ -57,14 +57,15 @@
                         <ejbModule>
                             <groupId>org.ngarcia.webapp.ear</groupId>
                             <artifactId>webapp-ear-ejb</artifactId>
-                            <boundleFileName>webapp-ear-ejb.jar</boundleFileName>
+                            <bundleFileName>webapp-ear-ejb.jar</bundleFileName>
                         </ejbModule>
                         <webModule>
                             <groupId>org.ngarcia.webapp.ear</groupId>
                             <artifactId>webapp-ear-war</artifactId>
                             <contextRoot>/webapp-ear</contextRoot>
-                            <boundleFileName>webapp-ear-war.war</boundleFileName>
+                            <bundleFileName>webapp-ear-war.war</bundleFileName>
                         </webModule>
+
                     </modules>
                 </configuration>
             </plugin>
